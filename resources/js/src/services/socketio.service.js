@@ -11,13 +11,7 @@ class SocketioService {
     this.socket.emit('my message', 'Hello there from Vuexxx.');
     this.socket.emit('my message', 'Hello there from Vue123.');
     this.socket.emit('eventsApiBackend', {event: 'data1', data: {race:'lol',ticket:'test'}});
-    let socket = new WebSocket("wss://ec2-3-93-179-92.compute-1.amazonaws.com:3100");
-
-    socket.onopen = function(e) {
-      alert("[open] Connection established");
-      alert("Sending to server");
-      socket.send("eventsApiBackend", {event: 'data1', data: {race:'lol',ticket:'testxxxxx'}});
-    };
+    
   }
   subcribers() {
     this.socket.on('data1', (data) => {

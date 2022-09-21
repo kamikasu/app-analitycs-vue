@@ -7,6 +7,9 @@
       <echart-line2 />
     </b-col>
     <b-col cols="12">
+      <echart-line3 />
+    </b-col>
+    <b-col cols="12">
       <echart-stacked-area />
     </b-col>
     <b-col cols="12">
@@ -35,6 +38,7 @@ import { BRow, BCol } from 'bootstrap-vue'
 
 import EchartLine from './EchartLine.vue'
 import EchartLine2 from './EchartLine2.vue'
+import EchartLine3 from './EchartLine3.vue'
 import EchartStackedArea from './EchartStackedArea.vue'
 import EchartArea from './EchartArea.vue'
 import EchartBar from './EchartBar.vue'
@@ -50,6 +54,7 @@ export default {
 
     EchartLine,
     EchartLine2,
+    EchartLine3,
     EchartStackedArea,
     EchartArea,
     EchartBar,
