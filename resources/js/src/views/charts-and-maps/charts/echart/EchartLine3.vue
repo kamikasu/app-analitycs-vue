@@ -59,7 +59,7 @@ export default {
             smooth: true,
             symbol: 'none',
             areaStyle: {},
-            data: data
+            data: data 
           }
         ]
       },
