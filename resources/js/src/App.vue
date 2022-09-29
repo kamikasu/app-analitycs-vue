@@ -110,7 +110,6 @@ export default {
   },
   created() {
     SocketioService.setupSocketConnection();
-    SocketioService.subcribers();
   },
   beforeUnmount() {
     SocketioService.disconnect();

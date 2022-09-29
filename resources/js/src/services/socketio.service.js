@@ -13,17 +13,12 @@ class SocketioService {
     this.socket.emit('eventsApiBackend', {event: 'data1', data: {race:'lol',ticket:'test'}});
     
   }
-  subcribers() {
-    this.socket.on('data1', (data) => {
-      console.log('data1 jajaja');
-      console.log(data);
-    });
-    this.socket.on('my message', (data) => {
-      console.log('data1 jajaja');
-      console.log(data);
-    });
+  subcribers(event, callback) {
+    this.socket.on(event, callback);
   }
-  
+  get() {
+    return this.socket;
+  }
   disconnect() {
     if(this.socket) {
       this.socket.disconnect();

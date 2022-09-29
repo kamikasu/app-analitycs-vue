@@ -31,14 +31,15 @@
 import { BCard, BBadge } from 'bootstrap-vue'
 import AppEchartLine from '@core/components/charts/echart/AppEchartLine3.vue'
 
-let base = +new Date(1988, 9, 3);
+let base = +new Date(2022, 8, 3);
 let oneDay = 24 * 3600 * 1000;
 let data = [[base, Math.random() * 300]];
-for (let i = 1; i < 20000; i++) {
+for (let i = 1; i < 20; i++) {
   let now = new Date((base += oneDay));
-  data.push([+now, Math.round((Math.random() - 0.5) * 20 + data[i - 1][1])]);
+  data.push([+now.getTime(), Math.round((Math.random() - 0.5) * 20 + data[i - 1][1])]);
+  // data[+now.getTime()] = [+now.getTime(), Math.round((Math.random() - 0.5) * 20 )];
 }
-
+console.log('data char',data);
 export default {
   components: {
     BCard,
