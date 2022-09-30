@@ -26,8 +26,8 @@
       <locale />
       <dark-Toggler class="d-none d-lg-block" />
       <search-bar />
-      <cart-dropdown />
-      <notification-dropdown />
+      <!-- <cart-dropdown />
+      <notification-dropdown /> -->
       <user-dropdown />
     </b-navbar-nav>
   </div>

@@ -41,7 +41,7 @@
             class="mb-1 font-weight-bold"
             title-tag="h2"
           >
-            Welcome to Vuexy! 👋
+            Welcome to DashApp! 👋
           </b-card-title>
           <b-card-text class="mb-2">
             Please sign-in to your account and start the adventure
@@ -55,9 +55,9 @@
               <p>
                 <small class="mr-50"><span class="font-weight-bold">Admin:</span> admin@demo.com | admin</small>
               </p>
-              <p>
+              <!-- <p>
                 <small class="mr-50"><span class="font-weight-bold">Client:</span> client@demo.com | client</small>
-              </p>
+              </p> -->
             </div>
             <feather-icon
               v-b-tooltip.hover.left="'This is just for ACL demo purpose'"
@@ -161,22 +161,22 @@
             </b-form>
           </validation-observer>
 
-          <b-card-text class="text-center mt-2">
+          <!-- <b-card-text class="text-center mt-2">
             <span>New on our platform? </span>
             <b-link :to="{name:'auth-register'}">
               <span>&nbsp;Create an account</span>
             </b-link>
-          </b-card-text>
+          </b-card-text> -->
 
           <!-- divider -->
-          <div class="divider my-2">
+          <!-- <div class="divider my-2">
             <div class="divider-text">
               or
             </div>
-          </div>
+          </div> -->
 
           <!-- social buttons -->
-          <div class="auth-footer-btn d-flex justify-content-center">
+          <!-- <div class="auth-footer-btn d-flex justify-content-center">
             <b-button
               variant="facebook"
               href="javascript:void(0)"
@@ -201,7 +201,7 @@
             >
               <feather-icon icon="GithubIcon" />
             </b-button>
-          </div>
+          </div> -->
         </b-col>
       </b-col>
     <!-- /Login-->

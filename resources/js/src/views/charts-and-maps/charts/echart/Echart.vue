@@ -1,13 +1,13 @@
 <template>
   <b-row>
     <b-col cols="12">
+      <echart-line3 />
+    </b-col>
+    <b-col cols="12">
       <echart-line />
     </b-col>
     <b-col cols="12">
       <echart-line2 />
-    </b-col>
-    <b-col cols="12">
-      <echart-line3 />
     </b-col>
     <b-col cols="12">
       <echart-stacked-area />

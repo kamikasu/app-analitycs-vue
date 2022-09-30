@@ -27,7 +27,7 @@
       </b-avatar>
     </template>
 
-    <b-dropdown-item
+    <!-- <b-dropdown-item
       :to="{ name: 'pages-profile'}"
       link-class="d-flex align-items-center"
     >
@@ -106,7 +106,7 @@
         class="mr-50"
       />
       <span>FAQ</span>
-    </b-dropdown-item>
+    </b-dropdown-item> -->
     <b-dropdown-item
       link-class="d-flex align-items-center"
       @click="logout"

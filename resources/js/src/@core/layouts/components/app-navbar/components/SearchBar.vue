@@ -2,16 +2,16 @@
   <li class="nav-item nav-search">
 
     <!-- Icon -->
-    <a
+    <!-- <a
       href="javascript:void(0)"
       class="nav-link nav-link-search"
-      @click="showSearchBar = true"
-    >
-      <feather-icon
+      @click="showSearchBar = true" -->
+    <!-- > -->
+      <!-- <feather-icon
         icon="SearchIcon"
         size="21"
-      />
-    </a>
+      /> -->
+    <!-- </a> -->
 
     <!-- Input -->
     <div
