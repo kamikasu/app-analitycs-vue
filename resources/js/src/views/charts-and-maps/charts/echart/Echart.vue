@@ -18,18 +18,18 @@
     <b-col cols="12">
       <echart-bar />
     </b-col>
-    <b-col cols="12">
+    <!-- <b-col cols="12">
       <echart-bar-Horizontal />
-    </b-col>
-    <b-col md="6">
+    </b-col> -->
+    <b-col md="12">
       <echart-doughnut />
     </b-col>
-    <b-col md="6">
+    <!-- <b-col md="6">
       <echart-radar />
     </b-col>
     <b-col cols="12">
       <echart-scatter />
-    </b-col>
+    </b-col> -->
   </b-row>
 </template>
 
